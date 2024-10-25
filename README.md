@@ -4,11 +4,11 @@
 
 This README provides detailed instructions for setting up and running the experiment replication package. The package is designed to evaluate the accuracy of energy consumption estimates provided by CodeCarbon under various operational settings.
 
-## Prerequisites
+### Prerequisites
 
 Before you begin, make sure you have Python installed on your system. This guide assumes you are using Python 3.
 
-## Setup Instructions
+### Setup Instructions
 
 Follow these steps to set up your environment and run the experiments:
 
@@ -17,14 +17,14 @@ Follow these steps to set up your environment and run the experiments:
 sudo apt-get install python3-tk
 
 
-# Install virtualenv if it is not installed
+### Install virtualenv if it is not installed
 pip3 install virtualenv
 
-# Create a virtual environment in the current directory
+### Create a virtual environment in the current directory
 virtualenv venv
 
-# Activate the virtual environment
-# On macOS and Linux
+### Activate the virtual environment
+On macOS and Linux
 source venv/bin/activate
 
 
